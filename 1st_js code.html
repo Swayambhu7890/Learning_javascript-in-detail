@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1st js code</title>
+</head>
+<body>
+    <script>
+        console.log("Welcome to pune");
+        console.log("Swayambhu");
+        console.log("I love Javascript");
+
+        // To get the value of age it should be written simple no need to use Quotes//
+         age=24;
+         console.log(age);
+        //  age+1;  25
+        
+
+         fullname="Tony Stark"
+         console.log(fullname);
+        // name    "Tony Stark"
+
+        price=99.98;
+        console.log(price);
+
+        x = null;                                //null means we know what is inside it but it has empty value //
+        console.log(x);
+
+        y = undefined;                      //undefined means we don't know what is inside it
+        console.log(y);
+
+        // Boolean Values  
+        isFollow = true;                 
+        console.log(isFollow);
+
+        isFollow = false;
+        console.log(isFollow);
+
+        // Variable declaration
+
+        let fullName = "Tony stark";
+        console.log(fullName);
+
+        // for age(for let)
+         let age1 = 45;
+         age1 = 38;
+         age1 = 86
+        console.log(age1);
+
+        //for constant(the thing which cannot change)
+        const  PI = 3.14;
+        console.log(PI);
+
+        //undefined example
+        let a;
+        console.log(a);
+          
+        //If value given then it will show on console
+         let b;
+         b=10;
+        console.log(b);
+
+        // Block example(Block can be seperately defined for same let variable a)
+        {
+            let a = 2;
+            console.log(a);
+        }
+         {
+            let a = 10;
+            console.log(a);
+        }
+
+        // Data Types
+        //1) Primitive datatypes:-
+
+        //  a)Number
+         let number = 23;
+         console.log(number);
+        //  typeof number = number;
+
+        // b)String
+        let name1 = "Tushar";
+        console.log(name1);
+        // typeof name1 = String;
+
+        // c)Boolean
+        let isFollow1 = true;
+        console.log(isFollow1);
+        // typeof isFollow1 = Boolean;  write on console
+
+        // d)Undefined
+        let x1;
+        console.log(x1);
+        // typeof x1 = undefined;
+
+        // e)Null
+        let x2 =null;
+        console.log(x2);
+        // typeof x2 = object(null);
+
+        // f)BigInt
+        let x3 = BigInt("1234");
+        console.log(x3);
+        // typeof x3 = BigInt;
+
+        // g)Symbol
+        let y1 = Symbol("Hello");
+        console.log(y1);
+        // typeof y1 = symbol;
+
+
+
+
+
+        // 2)Non Primitive datatypes:-
+
+        // a)objects(declare objects generally to constant)
+         const student = {
+            fullName : "Ram Raj",
+            age : 56,
+            cgpa : 8.2,
+            isPass : true,
+         };
+         console.log(student);
+        //  typeof student = object;
+        // if we want only student name then(student["fullName"];)
+        //if we want to print the age
+        console.log(student["age"]);
+        console.log(student.age);
+
+        //if i want to update age by 1
+       student["age"] = student["age"] + 1;
+       console.log(student["age"]);
+
+       //if i want to change name
+       student["fullName"] = "RamSam";
+       console.log(student["fullName"]);
+
+
+
+
+
+
+    </script>
+</body>
+</html>
