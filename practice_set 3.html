@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice set 3</title>
+</head>
+<body>
+   <script>
+     //Q1) print all even numbers from 0 to 100
+     for (i=0; i<=100; i++)
+     {
+        if(i%2 === 0) //even number
+     {
+        console.log("num =",i);
+     }
+     }
+
+     //Q2) Create a game whwre you start with any random game number.Ask the user to keep guessing the game number until the useer enters correct value.
+
+      let gameNum = 25;          //gameNum is declared as variable (to guess number)
+      let userNum = prompt("Guess the game number");  //userNum is number enter by user that is variable
+
+      while(userNum != gameNum)  //game
+      { 
+            userNum =  prompt("You entered  the wrong number,Guess again");
+      }
+      console.log("Congratulations,you entered the right number");
+
+
+   </script>
+</body>
+</html>
