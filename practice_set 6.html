@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice set 6</title>
+</head>
+<body>
+    <script>
+// Q1) Create an array to store companies -->"Bloomberg", "Microsoft", "Uber",  "Google", "IBM", "Netflix"
+
+// a) Remove the first company from the array.
+// b) Remove Uber & Add Ola in its place.
+// c) Add Amazon at the end
+
+let companies = ["Bloomberg", "Microsoft", "Uber",  "Google", "IBM", "Netflix"];
+companies.shift();
+
+console.log(companies);   // remove
+
+let companies1 = ["Bloomberg", "Microsoft", "Uber",  "Google", "IBM", "Netflix"];
+companies1.splice(2,1,"Ola");                       //replace by (splice method)
+console.log(companies1);  
+
+
+companies1.push("Amazon");         // push method
+console.log(companies1);  
+
+    </script>
+</body>
+</html>

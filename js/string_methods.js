@@ -48,7 +48,7 @@ let res = str8.concat(str9);
 console.log(res);
 
 //6)Replace
-let str10 = "hello";
+let str10 = "hellololo";
 
 console.log(str10.replace("h","y"));
 console.log(str10.replace("lo","p"));
