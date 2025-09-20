@@ -83,6 +83,8 @@ let indianHeroes = ["shaktiman","Krish"];
  arr3.splice();
  console.log(arr3);
 
+ 
+
 
 
 

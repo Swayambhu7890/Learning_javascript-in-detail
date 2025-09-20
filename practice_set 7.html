@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice set 7</title>
+</head>
+<body>
+    <script>
+    //  Q1) Create a function using the "function" keyword that takes a string as an argument & returns the number of vowels in the string
+    
+    function countVowels(str) {
+        // "ApnaCollege" , count = 5
+        let count = 0;
+        for(const char of str) {
+            if(
+               char === "a" || 
+               char === "e"|| 
+               char === "i"|| 
+               char === "o"|| 
+               char === "u"
+            ) 
+            {
+                count++;
+            }
+        }
+        return count;
+    }
+    console.log(countVowels("apnacollege"));
+
+    //Q2) Create a arrow function to perform the same task
+
+    const countVow = (str) => {
+        let count = 0;
+        for(const char of str) {
+            if(
+               char === "a" || 
+               char === "e"|| 
+               char === "i"|| 
+               char === "o"|| 
+               char === "u"
+            ) 
+            {
+                count++;
+            }
+        }
+        return count;
+    }
+    console.log(countVow("apnacollege"));
+
+
+    </script>
+
+</body>
+</html>
