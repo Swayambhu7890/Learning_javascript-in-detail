@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice set 10</title>
+    <style>
+         /* 1) */
+        .box {
+            height: 100px;
+            width: 100px;
+            border: 1px solid black;
+            margin: 5px;
+            text-align: center;
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    
+       <!-- Q1) Create a H2 heading element with text- "Hello Javascript". Append "from Apna college students" to this text using JS. -->
+    <h2>Hello Javascript</h2>
+
+    <!--  Q2) Create 3 divs with common class name-"box".Access them & add some unique text to each of them-->
+      <div class="box">first div</div>
+      <div class="box">second div</div>
+      <div class="box">third div</div>
+
+
+    <script>
+        // 1)
+        let h2 = document.querySelector("h2");
+        console.dir(h2.innerText);
+        h2.innerText = h2.innerText + " from Apna College Students"; // concatenate
+
+        // 2)
+        let divs = document.querySelectorAll(".box");
+        console.log(divs[2]);
+        divs[0].innerText = "new unique value 1";
+        divs[1].innerText = "new unique value 2";
+        divs[2].innerText = "new unique value 3";
+      
+
+        //OR 
+        // By for-of loop
+        // let divs = document.querySelectorAll(".box");
+        // let idx = 1;
+        // for (div of divs) {
+        //     div.innerText = `new unique value ${idx}`;
+        //     idx++;
+        // }
+
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,16 @@
+ h1 {
+        color: blueviolet;
+        text-align: center;
+        text-decoration: line-through;
+        background-color: yellow;
+     }
+
+     
+body {
+       background-color: aquamarine;
+     }
+
+button {
+    background-color: blue;
+    color: white;
+}
